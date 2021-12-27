@@ -8,15 +8,16 @@
   <body>
     <main>
       <!-- 入力エリア -->
-      <div class="input_area">
-        <input type="text" />
-        <button class="btn --add">追加</button>
-      </div>
+      <section class="input_area">
+        <h2 class="area_title">TODOの新規追加</h2>
+        <input id="add_text" type="text" />
+        <button id="add_btn" class="btn --add">追加</button>
+      </section>
 
       <!-- 未完了エリア -->
-      <div class="unfinished_area">
+      <section class="unfinished_area">
         <h2 class="area_title">未完了のTODO</h2>
-        <ul>
+        <ul id="unfinished_list">
           <li>
             TODOです。
             <button class="btn --comp">完了</button>
@@ -28,10 +29,10 @@
             <button class="btn --remove">削除</button>
           </li>
         </ul>
-      </div>
+      </section>
 
       <!-- 完了エリア -->
-      <div class="completion_area">
+      <section class="completion_area">
         <h2 class="area_title">完了したTODO</h2>
         <ul>
           <li>
@@ -39,7 +40,7 @@
             <button class="btn --return">戻す</button>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
 
     <script src="src/index.js"></script>

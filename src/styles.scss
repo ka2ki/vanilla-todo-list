@@ -45,6 +45,9 @@ main {
 // 入力エリア
 .input_area {
   background: #f0ffff;
+  input {
+    outline: none;
+  }
 }
 
 // 未完了エリア
