@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+main {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.area_title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.btn {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  &.--add {
+    background: #87cefa;
+  }
+  &.--comp {
+    background: #98fb98;
+  }
+  &.--remove {
+    background: #f08080;
+  }
+  &.--return {
+    background: #c0c0c0;
+  }
+}
+
+.input_area,
+.unfinished_area,
+.completion_area {
+  padding: 20px;
+  margin-top: 20px;
+  ul {
+    li {
+      &:not(:first-of-type) {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+// 入力エリア
+.input_area {
+  background: #f0ffff;
+}
+
+// 未完了エリア
+.unfinished_area {
+  background: #f0fff0;
+}
+
+// 完了エリア
+.completion_area {
+  background: #fdf5e6;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>vanilla todo list</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <main>
+      <!-- 入力エリア -->
+      <div class="input_area">
+        <input type="text" />
+        <button class="btn --add">追加</button>
+      </div>
+
+      <!-- 未完了エリア -->
+      <div class="unfinished_area">
+        <h2 class="area_title">未完了のTODO</h2>
+        <ul>
+          <li>
+            TODOです。
+            <button class="btn --comp">完了</button>
+            <button class="btn --remove">削除</button>
+          </li>
+          <li>
+            TODOです。
+            <button class="btn --comp">完了</button>
+            <button class="btn --remove">削除</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 完了エリア -->
+      <div class="completion_area">
+        <h2 class="area_title">完了したTODO</h2>
+        <ul>
+          <li>
+            TODOです。
+            <button class="btn --return">戻す</button>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
