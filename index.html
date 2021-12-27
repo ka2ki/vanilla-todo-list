@@ -11,7 +11,9 @@
       <section class="input_area">
         <h2 class="area_title">TODOの新規追加</h2>
         <input id="add_text" type="text" />
-        <button id="add_btn" class="btn --add">追加</button>
+        <div class="btn_wrap">
+          <button id="add_btn" class="btn --add">追加</button>
+        </div>
       </section>
 
       <!-- 未完了エリア -->
@@ -19,14 +21,18 @@
         <h2 class="area_title">未完了のTODO</h2>
         <ul id="unfinished_list">
           <li>
-            TODOです。
-            <button class="btn --comp">完了</button>
-            <button class="btn --remove">削除</button>
+            <p>TODOです。</p>
+            <div class="btn_wrap">
+              <button class="btn --comp">完了</button
+              ><button class="btn --remove">削除</button>
+            </div>
           </li>
           <li>
-            TODOです。
-            <button class="btn --comp">完了</button>
-            <button class="btn --remove">削除</button>
+            <p>TODOです。</p>
+            <div class="btn_wrap">
+              <button class="btn --comp">完了</button
+              ><button class="btn --remove">削除</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -36,8 +42,10 @@
         <h2 class="area_title">完了したTODO</h2>
         <ul>
           <li>
-            TODOです。
-            <button class="btn --return">戻す</button>
+            <p>TODOです。</p>
+            <div class="btn_wrap">
+              <button class="btn --return">戻す</button>
+            </div>
           </li>
         </ul>
       </section>

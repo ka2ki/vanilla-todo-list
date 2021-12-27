@@ -10,23 +10,28 @@ main {
   font-size: 1.2rem;
   margin: 0;
 }
-.btn {
-  background: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 0 15px;
-  &.--add {
-    background: #87cefa;
+.btn_wrap {
+  margin-top: 5px;
+  .btn {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    &.--add {
+      background: #87cefa;
+    }
+    &.--comp {
+      background: #98fb98;
+      margin: 0 5px 0 0;
+    }
+    &.--remove {
+      background: #f08080;
+    }
+    &.--return {
+      background: #c0c0c0;
+    }  
   }
-  &.--comp {
-    background: #98fb98;
-  }
-  &.--remove {
-    background: #f08080;
-  }
-  &.--return {
-    background: #c0c0c0;
-  }
+
 }
 
 .input_area,
@@ -37,7 +42,10 @@ main {
   ul {
     li {
       &:not(:first-of-type) {
-        margin-top: 10px;
+        margin-top: 15px;
+      }
+      p {
+      margin:0;
       }
     }
   }
